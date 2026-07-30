@@ -6,55 +6,14 @@
 
 <title>Just One Question 🤍</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-body{
-background:#fff;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-overflow:hidden;
-}
-
-.container{
-text-align:center;
-}
-
-h1{
-font-size:38px;
-color:#ff77aa;
-margin-bottom:15px;
-}
-
-p{
-font-size:22px;
-color:#555;
-margin-bottom:35px;
-}
-
-button{
-padding:16px 40px;
-font-size:22px;
-border:none;
-border-radius:40px;
-background:#ff8fbc;
-color:white;
-cursor:pointer;
-transition:.3s;
-box-shadow:0 10px 30px rgba(255,140,180,.3);
-}
-
-button:hover{
-transform:scale(1.08);
-}
+/* ===== CSS در Part 2 می‌آید ===== */
 
 </style>
 
@@ -62,25 +21,515 @@ transform:scale(1.08);
 
 <body>
 
-<div class="container">
+<div id="hearts"></div>
 
-<h1>Hey Amir 🤍</h1>
+<!-- صفحه اول -->
 
-<p>Just one question...</p>
+<section id="welcome" class="page active">
 
-<button onclick="start()">Start ✨</button>
+<div class="glass">
+
+<h1>
+Hey Amir 🤍
+</h1>
+
+<p>
+I have just one question...
+</p>
+
+<button id="startBtn">
+Start
+</button>
 
 </div>
 
+</section>
+
+<!-- صفحه سوال -->
+
+<section id="questionPage" class="page">
+
+<div class="glass">
+
+<h2>
+
+دلت برام تنگ شده؟ 🥹
+
+</h2>
+
+<div class="buttons">
+
+<button id="yesBtn">
+
+❤️ آره
+
+</button>
+
+<button id="noBtn">
+
+🤍 نه
+
+</button>
+
+</div>
+
+<p id="message"></p>
+
+</div>
+
+</section>
+
+<!-- صفحه تقویم -->
+
+<section id="calendarPage" class="page">
+
+<div class="glass">
+
+<h2>
+
+می‌دونستم... 🤍
+
+</h2>
+
+<p>
+
+پس کی میای بغلم؟ 🫂
+
+</p>
+
+<div id="calendar"></div>
+
+<input
+type="time"
+id="timePicker">
+
+<button id="finishBtn">
+
+Done 🤍
+
+</button>
+
+</div>
+
+</section>
+
+<!-- صفحه آخر -->
+
+<section id="finalPage" class="page">
+
+<div class="glass">
+
+<h1>
+
+Can't wait to hug you 🤍
+
+</h1>
+
+<p>
+
+Screenshot this and send it to Hiva 💕
+
+</p>
+
+</div>
+
+</section>
+
 <script>
 
-function start(){
-
-alert("Ready? 🥹❤️");
-
-}
+/* ===== JavaScript در Part 3 و 4 می‌آید ===== */
 
 </script>
 
 </body>
-</html>
+</html><!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Just One Question 🤍</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* ===== CSS در Part 2 می‌آید ===== */
+
+</style>
+
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<!-- صفحه اول -->
+
+<section id="welcome" class="page active">
+
+<div class="glass">
+
+<h1>
+Hey Amir 🤍
+</h1>
+
+<p>
+I have just one question...
+</p>
+
+<button id="startBtn">
+Start
+</button>
+
+</div>
+
+</section>
+
+<!-- صفحه سوال -->
+
+<section id="questionPage" class="page">
+
+<div class="glass">
+
+<h2>
+
+دلت برام تنگ شده؟ 🥹
+
+</h2>
+
+<div class="buttons">
+
+<button id="yesBtn">
+
+❤️ آره
+
+</button>
+
+<button id="noBtn">
+
+🤍 نه
+
+</button>
+
+</div>
+
+<p id="message"></p>
+
+</div>
+
+</section>
+
+<!-- صفحه تقویم -->
+
+<section id="calendarPage" class="page">
+
+<div class="glass">
+
+<h2>
+
+می‌دونستم... 🤍
+
+</h2>
+
+<p>
+
+پس کی میای بغلم؟ 🫂
+
+</p>
+
+<div id="calendar"></div>
+
+<input
+type="time"
+id="timePicker">
+
+<button id="finishBtn">
+
+Done 🤍
+
+</button>
+
+</div>
+
+</section>
+
+<!-- صفحه آخر -->
+
+<section id="finalPage" class="page">
+
+<div class="glass">
+
+<h1>
+
+Can't wait to hug you 🤍
+
+</h1>
+
+<p>
+
+Screenshot this and send it to Hiva 💕
+
+</p>
+
+</div>
+
+</section>
+
+<script>
+
+/* ===== JavaScript در Part 3 و 4 می‌آید ===== */
+
+</script>
+
+</body>
+</html>const pages = {
+welcome: document.getElementById("welcome"),
+question: document.getElementById("questionPage"),
+calendar: document.getElementById("calendarPage"),
+final: document.getElementById("finalPage")
+};
+
+const startBtn = document.getElementById("startBtn");
+const yesBtn = document.getElementById("yesBtn");
+const noBtn = document.getElementById("noBtn");
+const message = document.getElementById("message");
+const finishBtn = document.getElementById("finishBtn");
+
+function showPage(page){
+Object.values(pages).forEach(p=>p.classList.remove("active"));
+page.classList.add("active");
+}
+
+startBtn.onclick = () => {
+showPage(pages.question);
+};
+
+let yesScale = 1;
+
+noBtn.addEventListener("mouseenter",moveNo);
+noBtn.addEventListener("touchstart",moveNo);
+
+function moveNo(){
+
+const maxX = window.innerWidth - noBtn.offsetWidth - 20;
+const maxY = window.innerHeight - noBtn.offsetHeight - 20;
+
+const x = Math.random()*maxX;
+const y = Math.random()*maxY;
+
+noBtn.style.position="fixed";
+noBtn.style.left=x+"px";
+noBtn.style.top=y+"px";
+
+yesScale += .15;
+yesBtn.style.transform=`scale(${yesScale})`;
+}
+
+let thinkingShown=false;
+
+yesBtn.onclick=()=>{
+
+if(thinkingShown) return;
+
+thinkingShown=true;
+
+message.innerHTML="🥹";
+
+setTimeout(()=>{
+
+message.innerHTML="این‌همه فکر لازم نداشتا 😂";
+
+},10000);
+
+setTimeout(()=>{
+
+startHearts();
+
+showPage(pages.calendar);
+
+},12000);
+
+};
+const timePicker = document.getElementById("timePicker");
+finishBtn.onclick=()=>{
+
+showPage(pages.final);
+
+};
+
+window.addEventListener("resize",()=>{
+
+noBtn.style.left="";
+noBtn.style.top="";
+noBtn.style.position="relative";
+
+});/* ==========================
+   Part 4 - Hearts + Date
+========================== */
+
+const calendar = document.getElementById("calendar");
+
+// ساختن فیلد تاریخ
+const dateInput = document.createElement("input");
+dateInput.type = "date";
+dateInput.id = "datePicker";
+
+calendar.appendChild(dateInput);
+
+// بارش قلب‌های سفید
+function startHearts(){
+
+const container = document.getElementById("hearts");
+
+let count = 0;
+
+const interval = setInterval(()=>{
+
+const heart = document.createElement("div");
+
+heart.className = "heart";
+
+const hearts = [
+"🤍",
+"🤍",
+"♡",
+"♥"
+];
+
+heart.innerHTML = hearts[Math.floor(Math.random()*hearts.length)];
+
+heart.style.left = Math.random()*100+"vw";
+heart.style.bottom = "-40px";
+heart.style.fontSize = (20+Math.random()*25)+"px";
+heart.style.animationDuration = (3+Math.random()*2)+"s";
+
+container.appendChild(heart);
+
+setTimeout(()=>{
+heart.remove();
+},5000);
+
+count++;
+
+if(count>=40){
+clearInterval(interval);
+}
+
+},180);
+
+}
+
+// اگر تاریخ و ساعت انتخاب نشود
+finishBtn.onclick = ()=>{
+
+if(dateInput.value==="" || timePicker.value===""){
+
+alert("🥹 اول تاریخ و ساعت بغل رو انتخاب کن.");
+
+return;
+
+}
+
+showPage(pages.final);
+
+};/* ==========================
+   Part 5 - Final Effects
+========================== */
+
+// افکت بزرگ شدن دکمه آره
+yesBtn.addEventListener("mouseover", () => {
+    yesBtn.animate(
+        [
+            { transform: `scale(${yesScale})` },
+            { transform: `scale(${yesScale + 0.08})` },
+            { transform: `scale(${yesScale})` }
+        ],
+        {
+            duration: 300,
+            iterations: 1
+        }
+    );
+});
+
+// بارش قلب در صفحه آخر
+function finalHearts(){
+
+    const interval = setInterval(()=>{
+
+        const heart=document.createElement("div");
+
+        heart.className="heart";
+        heart.innerHTML="🤍";
+
+        heart.style.left=Math.random()*100+"vw";
+        heart.style.bottom="-30px";
+        heart.style.fontSize=(18+Math.random()*22)+"px";
+        heart.style.animationDuration=(3+Math.random()*2)+"s";
+
+        document.body.appendChild(heart);
+
+        setTimeout(()=>{
+            heart.remove();
+        },5000);
+
+    },250);
+
+    setTimeout(()=>{
+        clearInterval(interval);
+    },10000);
+
+}
+
+// وقتی وارد صفحه آخر شد
+finishBtn.addEventListener("click",()=>{
+
+    setTimeout(()=>{
+
+        finalHearts();
+
+        const title = pages.final.querySelector("h1");
+        const text = pages.final.querySelector("p");
+
+        title.innerHTML="Can't wait to hug you 🤍";
+        text.innerHTML="Love you, Amir 💕";
+
+    },200);
+
+});
+
+// پیام خوشگل اگر تاریخ انتخاب شد
+dateInput.addEventListener("change",()=>{
+
+    if(dateInput.value!=="" && timePicker.value!==""){
+
+        message.innerHTML="🥹 منتظرت می‌مونم...";
+
+    }
+
+});
+
+timePicker.addEventListener("change",()=>{
+
+    if(dateInput.value!=="" && timePicker.value!==""){
+
+        message.innerHTML="🥹 منتظرت می‌مونم...";
+
+    }
+
+});
+
+// ورود نرم صفحه‌ها
+document.querySelectorAll(".page").forEach(page=>{
+
+    page.style.transition="opacity .5s ease, transform .5s ease";
+
+});
+
+// جلوگیری از انتخاب متن
+document.body.onselectstart=()=>false;
+
+// پایان 🤍
